@@ -47,14 +47,17 @@ nav#menu ul {
     top: -20px;
     left: 300px;
 }
-
 nav#menu li {
     display: inline-block;
     background-color: #dddddd;
     padding: 10px;
     margin: 2px;
-
+    transition:1s;
 }
+nav#menu li:hover {
+    background-color: #606060;
+}
+
 nav#menu h1 {
 
     display: none;
