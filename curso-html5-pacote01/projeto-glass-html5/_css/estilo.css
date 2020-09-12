@@ -126,5 +126,5 @@ aside#lateral {
 
 footer#rodape {
     clear: both;
-
+    border-top: 1px solid #606060;
 }
