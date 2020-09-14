@@ -117,6 +117,10 @@ section#corpo {
     padding-right: 15px;
     
 }
+table#tabelaspec {
+    border: 1px solid #606060;
+
+}
 aside#lateral {
     display: block;
     width: 350px;
