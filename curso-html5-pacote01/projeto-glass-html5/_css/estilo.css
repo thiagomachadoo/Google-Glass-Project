@@ -5,7 +5,8 @@
     src: url("../_fonts/bubblegum-sans-regular.otf");
 
 }
-body        {
+body  {
+    font-family: Arial, Helvetica, sans-serif;
     background-color: #dddddd;
     color: (0, 0, 0,1);
 }
@@ -21,7 +22,14 @@ p{
     text-align: justify;
     text-indent: 50px;
 }
+a {
+    color:#606060;
+    text-decoration: none;
 
+}
+a:hover {
+    text-decoration: underline;
+}
 header#cabecalho img#icone {
     position: absolute;
     left: 780px;
