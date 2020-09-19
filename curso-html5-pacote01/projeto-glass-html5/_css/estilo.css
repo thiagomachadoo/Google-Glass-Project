@@ -226,3 +226,9 @@ footer#rodape p {
     text-align: center;
 
 }
+
+footer#rodape p {
+    background-color: rgba(0,0,0,.4);
+    color: royalblue;
+    padding: 0px;
+}
