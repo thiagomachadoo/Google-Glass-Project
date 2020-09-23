@@ -4,6 +4,7 @@
     <title>Teste JavaScript</title>
     <meta charset="UTF-8"/>
     <script>
+        var quebrada = false;
         function mudaLampada(tipo){   
         if (tipo == 1) {
             arquivo ="_imagens/lampada-acesa.jpg";
@@ -11,10 +12,18 @@
         if (tipo == 2) {
             arquivo ="_imagens/lampada-apagada.jpg";
         }
-        if (tipo ==3)
+        if (tipo ==3) {
             arquivo="_imagens/lampada-quebrada.jpg";
-        document.getElementById("luz").src= arquivo;
-    }
+            
+        }
+        if (!quebrada) {
+            document.getElementById("luz").src= arquivo;
+            if(tipo==3) {
+                quebrada = true;
+            }
+        } 
+        
+        }
 
        
     </script>
