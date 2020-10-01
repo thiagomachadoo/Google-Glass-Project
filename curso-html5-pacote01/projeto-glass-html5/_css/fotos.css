@@ -6,3 +6,13 @@ ul#album-fotos {
     padding: 50px;
     overflow: hidden;list-style: none;
 }
+
+ul#album-fotos li {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 5px solid black;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 3px rgba(0,0,0,.4);
+}
