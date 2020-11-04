@@ -66,7 +66,13 @@
            <option value="RS">Rio Grande do Sul</option>
        </select> </p>
        <p><label for="cCid">Cidade:</label>
-       <input type="text" name="cCid" id="cCid" maxlength="40" size="20" placeholder="Sua cidade"></p>
+       <input type="text" name="cCid" id="cCid" maxlength="40" size="20" placeholder="Sua cidade" list="cidades"></p>
+       <datalist id="cidades">
+           <option value="Rio de Janeiro"></option>
+           <option value="Nova Iguaçu"></option>
+           <option value="Niterói"></option>
+           <option value="Belford Roxo"></option>
+       </datalist>
     </fieldset>
 
     <fieldset id="mensagem">
