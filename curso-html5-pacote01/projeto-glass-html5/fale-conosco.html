@@ -83,18 +83,20 @@
     <textarea name="tMsg" id="cMsg" cols="45" rows="5" placeholder="Deixe aqui sua mensagem"></textarea></p>
     </fieldset>
 
-    <fieldset id="pedido">
-        <legend>Quero um Google Glass</legend>
-    Gostaria de adquirir um Google Glass quando disponível
-    Cor:
-    Quantidade:
-    Preço Total: R$
+    <fieldset id="pedido"><legend>Quero um Google Glass</legend>
+    <p><input type="checkbox" name="tPed"id="cPed">
+    <label for="cPed">Gostaria de adquirir um Google Glass quando disponível</label></p>
+    <p><label for="cCor">Cor:</label>
+    <input type="color" name="tCor"></p>
+    <p><label for="cQtd">Quantidade:</label>
+    <input type="number" name="tQtd" id="cQtd" min="0" max="5"></p>
+    <p><Label for="cTop"> Preço Total: R$</Label>
+    <input type="text" name="tTot" id="cTot" placeholder="Total a Pagar" readonly></p>
     </fieldset>
-
-
-
-[BOTÃO ENVIAR]
-</form>
+        
+    <input type="image" name="tEnviar" src="_imagens/botao-enviar.png"/>
+    
+    </form>
 
 <footer id="rodape">
     <p>Copyright &copy; 2013 - by Gustavo Guanabara </br>
@@ -103,3 +105,4 @@
     </div>
     </body>
     </html>
+ 
